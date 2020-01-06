@@ -1,2 +1,2 @@
 # projects
-Personal Projects 
+Personal Coding Progress
