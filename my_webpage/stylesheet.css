@@ -11,41 +11,10 @@
   font-style: italic;
 }
 
-body {
-  overflow: scroll;
-  width: 100%;
-  height: 100%;
-  background-color: #626361;
-  background-image: url('images/pc.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-h2 {
-  text-align: center;
-  color: #FF6A00;
-  font-family: sans-serif;
-  font-size: 15px;
-  font-style: normal;
-}
-
-.footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  color: white;
-  background-color: #33353D;
-  font-family: sans-serif;
-  font-size: 12px;
-  font-style: italic;
-}
-
 .navbar {
   vertical-align: middle;
   list-style-type: none;
-  margin: 200px 100px 150px 0px;
+  margin: 100px 100px 150px 0px;
   padding: 0;
   width: 25%;
   display: block;
@@ -75,4 +44,36 @@ li a {
 li a:hover {
   background-color: #33353D;
   color: white;
+}
+
+
+body {
+  overflow: scroll;
+  width: 100%;
+  height: 100%;
+  background-color: #626361;
+  background-image: url('images/pc.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2 {
+  text-align: center;
+  color: #FF6A00;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-style: normal;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: #33353D;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-style: italic;
 }
