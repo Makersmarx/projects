@@ -1,14 +1,13 @@
 body {
+  background-image: url("images/sun.png");
+  background-repeat: no-repeat;
   font-family: roboto;
-  background-color: white;
 }
 
 .navbar {
   position: static;
   top: 0;
   width: 100%;
-  background-color: #D4DFE3
-  
 }
 
 .navbar li {
@@ -18,22 +17,44 @@ body {
 
 .navbar a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 main {
-  padding: 100px;
-  text-align: center;
+  padding: 50px;
   font-weight: bold;
+}
+
+.header {
+  padding-top: 200px;
+}
+
+.pitch {
+  width: 50%;
+}
+
+.pitch-cont {
+  display: flex;
+  justify-content: left;
+  width: 75%;
 }
 
 .objective {
   padding: 100px;
-  text-align: center;
+  text-align: right;
+  color: white;
   font-weight: bold;
+}
+
+.object {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+  color: white;
 }
 
 footer {
   text-align: center;
   font-weight: bold;
+  color: white;
 }
