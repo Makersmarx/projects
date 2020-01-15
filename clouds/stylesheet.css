@@ -1,16 +1,19 @@
 body {
   font-family: roboto;
+  background-color: white;
 }
 
 .navbar {
-  position: fixed;
+  position: static;
   top: 0;
   width: 100%;
+  background-color: #D4DFE3
+  
 }
 
 .navbar li {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 20px 20px;
 }
 
 .navbar a {
@@ -18,54 +21,19 @@ body {
   color: black;
 }
 
-.banner {
-  margin-top: 50px;
+main {
   padding: 100px;
   text-align: center;
-  background-position: top;
-  background-size: cover;
-  background-color: #364B71
+  font-weight: bold;
 }
 
-#banner-intro {
+.objective {
+  padding: 100px;
   text-align: center;
   font-weight: bold;
-  color: black;
 }
-
-#banner2 {
-  background-position: top;
-  background-size: cover;
-  display: block;
-  background-color: #57AFC0;
-}
-
-#banner-intro2 {
-
-  position: relative;
-  text-align: center;
-  color: black;
-  font-style: italic;
-}
-
-#banner3{
-  background-position: bottom;
-  background-size: cover;
-  display: block;
-  background-color: #6F90B1;
-}
-
-#banner-intro3{
-  position: relative;
-  text-align: center;
-  color: black;
-  font-style: italic;
-}
-
 
 footer {
   text-align: center;
-  background-color: #364B71;
-  padding: 5px;
-  color: white;
+  font-weight: bold;
 }
