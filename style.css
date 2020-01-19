@@ -20,7 +20,7 @@ body {
 }
 
 #banner {
-  background-image: url("images/mntcloud.jpeg");
+  background-image: url("TestPage/images/mntcloud.jpeg");
   background-size: cover;
   background-position: bottom center;
   height: 700px;
