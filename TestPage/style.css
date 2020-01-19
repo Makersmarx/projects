@@ -43,13 +43,17 @@ h1 {
   text-align: center;
 }
 
+.back {
+  background-color: #B6CECE;
+}
+
 .we {
   color: gray;
   font-size: 26px;
   font-weight: 700;
   padding: 20px 10px;
+  text-align: left;
   margin-right: 50%;
-  text-align: center;
 }
 
 .objective {
@@ -57,14 +61,8 @@ h1 {
   font-size: 26px;
   font-weight: 700;
   padding: 20px 10px;
+  text-align: right;
   margin-left: 50%;
-  text-align: center;
-}
-
-p {
-  color: grey;
-  font-size: 16px;
-  line-height: 48px;
 }
 
 .footer1 {
