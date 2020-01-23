@@ -1,75 +1,78 @@
 body {
-  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  background-color: #eee;
 }
 
-.navbar {
-  position: static;
-  top: 0;
-  width: 100%;
-}
-
-.navbar li {
-  display: inline-block;
-  padding: 20px 20px;
-}
-
-.navbar a {
-  text-decoration: none;
-  color: gray;
-  font-size: 22px;
-}
-
-#banner {
-  background-image: url("TestPage/images/mntcloud.jpeg");
-  background-size: cover;
-  background-position: bottom center;
-  height: 700px;
-  width: 100%;
-}
-
-#banner .content h1 {
-  border: solid 3px teal;
-  color: gray;
-  position: relative;
-  top: 50px;
-  width: 400px;
-  margin: 0 auto;
+.container {
+  padding: 0 5%;
 }
 
 h1 {
-  color: white;
-  font-size: 42px;
-  font-weight: 600;
+  font-weight: 100;
+}
+
+footer {
+  display: inline-block;
   text-align: center;
 }
 
-.back {
-  background-color: #B6CECE;
+/* NAVBAR */
+.navbar {
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #eee;
+  background-color: #111;
+  line-height: 1;
 }
 
-.we {
-  color: gray;
-  font-size: 26px;
-  font-weight: 700;
-  padding: 20px 10px;
-  text-align: left;
-  margin-right: 50%;
+.navbar .logo {
+  font-weight: bold;
+  font-size: 24px;
 }
 
-.objective {
-  color: gray;
-  font-size: 26px;
-  font-weight: 700;
-  padding: 20px 10px;
-  text-align: right;
-  margin-left: 50%;
+.navbar ul {
+  display: flex;
+  list-style: none;
 }
 
-.footer1 {
-  padding: 40px 0px;
+.navbar ul li {
+  padding: 0 12px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #bbb;
+}
+
+.navbar ul li a:hover {
+  color: #fff;
+  transition: 0.2s;
+}
+
+/* MAIN IMAGE */
+.main {
+  height: 500px;
+  overflow: hidden;
   position: relative;
-  text-align: center;
-  border: 1px solid gray;
+  background-color: #000;
+}
+
+.main img {
   width: 100%;
-  background-color: teal;
+  position: absolute;
+  top: -160px;
+  opacity: 0.5;
+}
+
+.main .header-text {
+  position: absolute;
+  bottom: 222px;
+  width: 100%;
+  text-align: center;
+  font-size: 64px;
+  font-weight: bold;
+  color: #fff;
 }
