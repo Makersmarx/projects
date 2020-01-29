@@ -15,4 +15,4 @@ let myAgeInDogYears = earlyYears + laterYears;
 const myName = 'makers'.toLowerCase();
 
 // human age in dog years
-console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears}.`);
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} in dog years.`);
