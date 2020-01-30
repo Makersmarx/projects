@@ -6,7 +6,7 @@ if (userName) {
   console.log('Hello!')
 }
 
-let userQuestion = 'Will it rain tomorrow?';
+let userQuestion = 'Will it rain tomorrow';
 
 console.log(userQuestion);
 
