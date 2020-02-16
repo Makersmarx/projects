@@ -57,7 +57,7 @@ menu.addDishToCourse('mains', 'garlic noodles', 4.60)
 menu.addDishToCourse('mains', 'chicken salad', 4.00)
 menu.addDishToCourse('desserts', 'cake', 3.00)
 menu.addDishToCourse('desserts', 'vanilla pudding', 3.00)
-menu.addDishToCourse('desserts', 'milkShake', 8.250)
+menu.addDishToCourse('desserts', 'milkShake', 8.25)
 
 const meal = menu.generateRandomMeal()
 console.log(meal);
