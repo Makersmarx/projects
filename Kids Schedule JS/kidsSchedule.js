@@ -25,8 +25,8 @@ const abbySchoolStart = starts => {
 };
 
 
-robertSchoolStart('Monday');
-abbySchoolStart('Friday');
+robertSchoolStart('Wednesday');
+abbySchoolStart('Wednesday');
 
 
 //"Given a string X, return whether or not the string is a palindrome"
