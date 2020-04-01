@@ -1,2 +1,2 @@
 # projects
-Personal Coding Progress Codecademy
+Personal coding progress using various resources
