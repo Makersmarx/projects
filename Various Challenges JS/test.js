@@ -83,3 +83,22 @@ function isPalindrome(string) {
 }
 
 console.log(isPalindrome('false'))
+
+
+function calculateTaxes(price, quantity) {
+  var salesTax = .10;
+  var totalPrice;
+  // Only change code below this line
+  var preTax = price * quantity;
+  console.log(preTax)
+  var withTax = preTax * salesTax;
+  console.log(withTax)
+  totalPrice = preTax + withTax;
+
+  // Only change code above this line
+  return totalPrice;
+}
+
+// Change the inputs below to test your code
+
+console.log(calculateTaxes(2, 6));
