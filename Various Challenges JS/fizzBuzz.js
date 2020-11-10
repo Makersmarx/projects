@@ -18,4 +18,4 @@ for (let i = 1; i < 17; i++) {
   }
 }
 
-console.log(fb)
+console.log(fb);
