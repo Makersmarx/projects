@@ -26,4 +26,8 @@ let arrays = [
 
 let randomFact = arrays[Math.floor(Math.random() * arrays.length)];
 
-console.log(randomFact);
+const genFact = () => {
+  return randomFact;
+};
+
+console.log(genFact());
