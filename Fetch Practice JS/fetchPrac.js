@@ -2,12 +2,12 @@
 
 // GET pokemon/1 = bulbasaur
 
-// const fetch = require('node-fetch');
+const fetch = require('node-fetch');
 
-// fetch('https://pokeapi.co/api/v2/pokemon/1')
-//   .then((response) => response.json())
-//   .then((data) => console.log(data.name))
-//   .catch((error) => console.log(error));
+fetch('https://pokeapi.co/api/v2/pokemon/2')
+  .then((response) => response.json())
+  .then((data) => console.log(data.name))
+  .catch((error) => console.log(error));
 
 // Fetch data from music generator @ https://github.com/BinaryJazz/genrenator
 
@@ -58,21 +58,23 @@
 
 // get fake user data from jsonplaceholder
 
-const getUser = async () => {
-  try {
-    const response = await fetch(
-      'https://jsonplaceholder.typicode.com/users/3'
-    );
-    if (!response.ok) {
-      throw new Error(response.status);
-    } else {
-      const data = await response.json();
-      console.log(data.name);
-      console.log(data.company.name);
-    }
-  } catch (error) {
-    console.log(error);
-  }
-};
+// const fetch = require('node-fetch');
 
-getUser();
+// const getUser = async () => {
+//   try {
+//     const response = await fetch(
+//       'https://jsonplaceholder.typicode.com/users/3'
+//     );
+//     if (!response.ok) {
+//       throw new Error(response.status);
+//     } else {
+//       const data = await response.json();
+//       console.log(data.name);
+//       console.log(data.company.name);
+//     }
+//   } catch (error) {
+//     console.log(error);
+//   }
+// };
+
+// getUser();
